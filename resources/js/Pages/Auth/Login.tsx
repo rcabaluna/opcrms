@@ -1,4 +1,4 @@
-import LoginForm from "@/Components/login-form";
+import LoginForm from "@/components/login-form";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import React from "react";
@@ -6,15 +6,15 @@ import React from "react";
 const Login = ({ className, ...props }: React.ComponentPropsWithoutRef<"div">) => {
     return (
         <>
-            <div className={cn("flex min-h-screen items-center justify-center bg-sky-800", className)} {...props}>
+            <div className={cn("flex min-h-screen items-center justify-center bg-sky-700", className)} {...props}>
                 <div className="w-full max-w-md">
                     <Card>
                         <CardHeader className="flex flex-row items-center gap-4">
                             <img src="/logo.png" alt="DOST 10 Logo" className="w-12 h-12 ml-1" />
                             <div className="flex flex-col pl-3">
-                                <CardTitle className="text-xl">OPCRMS</CardTitle>
+                                <CardTitle className="text-xl">DOST 10 - OPCRMS</CardTitle>
                                 <CardDescription>
-                                    Office Performance Commitment and Review <br /> Management System
+                                    Office and Individual Performance Commitment and Review <br /> Management System
                                 </CardDescription>
                             </div>
                         </CardHeader>

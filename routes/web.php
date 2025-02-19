@@ -25,3 +25,4 @@ use Inertia\Inertia;
 // });
 
 require __DIR__.'/auth.php';
+require __DIR__.'/opcr.php';
