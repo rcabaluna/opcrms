@@ -1,6 +1,7 @@
 import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from '@/Components/ui/breadcrumb'
+import { Separator } from '@/Components/ui/separator';
 import { SidebarTrigger } from '@/Components/ui/sidebar'
-import { Separator } from '@radix-ui/react-separator'
+
 import React from 'react'
 
 interface MainBreadcrumbProps {

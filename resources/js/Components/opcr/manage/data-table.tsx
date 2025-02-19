@@ -57,7 +57,7 @@ export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData
     return (
         <>
             <div className="flex items-center gap-2 py-4">
-                <Label htmlFor="search">Search</Label>
+                <Label htmlFor="search">Search : </Label>
                 <Input
                     id="search"
                     value={globalFilter}

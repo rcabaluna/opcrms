@@ -22,7 +22,7 @@ class ManageController extends Controller
      */
     public function create()
     {
-        //
+        return inertia('Opcr/CreateOpcr');
     }
 
     /**
