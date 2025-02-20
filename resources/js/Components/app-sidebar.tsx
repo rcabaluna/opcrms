@@ -29,7 +29,7 @@ const data = {
   user: {
     name: "shadcn",
     email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    avatar: "/logo.png",
   },
   navMain: [
     {
@@ -43,20 +43,20 @@ const data = {
           url: "/opcr/dashboard",
         },
         {
-          title: "Manage",
-          url: "/opcr/manage",
+          title: "Targets",
+          url: "/opcr/targets",
         },
       ],
     },
     {
-      title: "Settings",
+      title: "Libraries",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
           title: "Offices",
-          url: "#",
+          url: "/libraries/offices",
         },
         {
           title: "Users",

@@ -1,15 +1,14 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import MainBreadcrumb from "@/Layouts/MainBreadcrumb";
 import MainSidebar from "@/Layouts/MainSidebar";
-import { Payment, columns } from "@/Components/opcr/manage/columns";
-import { DataTable } from "@/Components/opcr/manage/data-table";
+import { Payment, columns } from "@/Components/opcr/targets/columns";
+import { DataTable } from "@/Components/opcr/targets/data-table";
 import { Separator } from "@/Components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Link } from "@inertiajs/react";
 import { Plus } from "lucide-react";
 
 async function getData(): Promise<Payment[]> {
-  // Fetch data from your API here.
   return [
     {
       id: "728ed52f",
@@ -17,85 +16,6 @@ async function getData(): Promise<Payment[]> {
       status: "pending",
       email: "m@example.com",
     },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    {
-      id: "728ed52f",
-      amount: 100,
-      status: "pending",
-      email: "m@example.com",
-    },
-    // ...
   ];
 }
 

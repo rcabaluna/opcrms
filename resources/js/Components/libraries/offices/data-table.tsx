@@ -17,13 +17,13 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-} from "@/components/ui/table";
+} from "@/Components/ui/table";
 
 import { Input } from "@/components/ui/input";
 import React from "react";
 import { Label } from "@/components/ui/label";
-import { DataTableViewOptions } from "@/components/table-functions/DataTableViewOptions";
-import { DataTablePagination } from "@/components/table-functions/DataTablePagination";
+import { DataTableViewOptions } from "@/Components/table-functions/DataTableViewOptions";
+import { DataTablePagination } from "@/Components/table-functions/DataTablePagination";
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[];
